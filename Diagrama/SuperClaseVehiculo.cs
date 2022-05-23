@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Diagrama
 {
-    internal class SuperClaseVehiculo
+    public class SuperClaseVehiculo
     {
         private string NombreVehiculo;
         private string TipoMotor;

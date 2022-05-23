@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Diagrama
 {
-    internal class SubClaseTerrestre
+    public class SubClaseTerrestre : SuperClaseVehiculo
     {
         private string NombreTerrestre;
-        public int NumeroLlantas;
+        private int NumeroLlantas;
 
         public SubClaseTerrestre (string NombreTerrestre, int NumeroLlantas)
         {
@@ -24,5 +24,16 @@ namespace Diagrama
         {
             this.NombreTerrestre = NombreTerrestre;
         }
+        public int getNumeroLlantas()
+        {
+            return NumeroLlantas
+        }
+        public void setNumeroLlantas(int NumeroLlantas)
+        {
+            this.NumeroLlantas = NumeroLlantas;
+        }
+            
+
+
     }
 }

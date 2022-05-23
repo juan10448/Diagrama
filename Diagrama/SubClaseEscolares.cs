@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Diagrama
 {
-    internal class SubClaseEscolares
+    internal class SubClaseEscolares : SubClaseColectivo
     {
         
     }
